@@ -91,17 +91,17 @@ Tema Nuevo:
 ===========
 Branches ramas en Git
    - ¿Qué es una rama y por qué usarla?
-	Es una línea de desarrollo independiente que permite trabajar en nuevas funcionalidades, correcciones de errores o experimentos sin interferir con el código estable principal. 
+	Es una línea de desarrollo independiente que permite trabajar en nuevas funcionalidades (NFC contact less de Mercado Pago, Modo), correcciones de errores (errores registro usuario) o experimentos sin interferir con el código estable principal. 
    
    - Crear una rama: `git branch <nombre-rama>`.
-	Estamos en la en la rama master y queremos crear una nueva rama para desarrollar una funcionalidad de login:
-	git branch feature/login
-	Esto crea una rama llamada feature/login, pero no cambia automáticamente a ella.
+    Estamos en la en la rama master y queremos crear una nueva rama para desarrollar una funcionalidad de login:
+    git branch feature/login
+    Esto crea una rama llamada feature/login, pero no cambia automáticamente a ella.
 
    - Cambiar de rama: `git checkout <nombre-rama>`.`git switch <nombre-rama>`.
-	Este comando te permite moverte a una rama específica para empezar a trabajar en ella.
-	git checkout feature/login
-	git switch feature/login
+    Este comando te permite moverte a una rama específica para empezar a trabajar en ella.
+    git checkout feature/login
+    git switch feature/login
 
    - Fusionar ramas: `git merge <nombre-rama>`.
 	Supongamos que terminaste de desarrollar la funcionalidad de login en feature/login y quieres fusionarla con master:
