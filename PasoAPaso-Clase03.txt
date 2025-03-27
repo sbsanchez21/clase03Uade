@@ -1,0 +1,54 @@
+Clase 03 :
+==========
+
+
+Control de Versiones:
+====================
+- Repaso:
+    - ¿Qué es el control de versiones y por qué es importante?
+    - Tipos de sistemas de control de versiones:
+        - Locales (ejemplo: copias manuales de archivos).
+        - Centralizados (ejemplo: SVN).
+        - Distribuidos (ejemplo: Git).
+
+    ¿Para que sirve Git?
+    ¿Para qué Sirven GitHub y GitLab?
+    Instalación y config Git, Github:
+    Áreas de un Repositorio Git, Repo GitHub:
+
+    Comandos Básicos de Git
+    Práctica: crear un repo local git
+
+Vincular un repo local a uno remoto y subir repo a Github:
+Práctica: crear un repo remoto en github, vincular repo local con remoto, subir a github
+
+Branches en Git
+Práctica: crear una rama feature/login, crear archivos, commit a repo local, subir a github, hacer merge con repo master
+
+
+Trabajo con Repositorios Remotos
+Práctica: clonar repo, subir cambios x otro usuario, traer cambios pull 
+
+Integración de Git con Java
+Práctica: ver src
+
+Buenas Prácticas en el Control de Versiones
+
+Práctica grupal 15min: crear un repo local git, crear archivos y subirlos a github, crear una rama feature/registro, crear archivos y subirlos a github, hacer merge entre rama registro y master
+
+
+
+
+
+Javascript
+===================
+- Para que sirve JS? lógica en el frontend, ejemplo holaJs.html
+- ECMAScript es el estándar que define cómo debe funcionar un lenguaje de scripting, JavaScript es la implementación más popular de ECMAScript 
+- JavaScript
+- Funciones
+- Arrays y Objetos
+- DOM
+- Eventos
+- JS Asincrónico 
+
+

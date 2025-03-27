@@ -1,0 +1,68 @@
+- para que sirve Js? lógica en el frontend, ejemplo holaJs.html
+- ECMAScript es el estándar que define cómo debe funcionar un lenguaje de scripting, JavaScript es la implementación más popular de ECMAScript 
+
+ 
+- Fundamentos de JavaScript, Estructuras de Control, Funciones, 
+
+Punto 1: Fundamentos de JavaScript
+- Variables y Tipos de Datos:
+    - `var`, `let`, `const`.
+    - Números, cadenas, booleanos, `null`, `undefined`.
+    - Operadores aritméticos y de comparación.
+- Estructuras de Control:
+    - Condicionales: `if`, `else if`, `else`, `switch`.
+    - Bucles: `for`, `while`, `do...while`.
+- Funciones:
+    - Declaración y llamada de funciones.
+    - Parámetros y valores de retorno.
+    - Funciones anónimas y funciones de flecha.
+- Arrays y Objetos:
+    - Creación y manipulación de arrays.
+    - Creación y manipulación de objetos.
+    - Propiedades y métodos de arrays y objetos.
+
+Punto 2: El DOM (Modelo de Objetos del Documento)
+- Introducción al DOM:
+    - Qué es el DOM y su representación en árbol.
+    - El objeto `document`.
+    - Navegación por el DOM: nodos, elementos, atributos.
+- Selección de Elementos:
+    - `getElementById`, `getElementsByClassName`, `getElementsByTagName`.
+    - `querySelector`, `querySelectorAll`.
+- Manipulación del DOM:
+    - Modificación de contenido: `innerHTML`, `textContent`.
+    - Modificación de atributos: `setAttribute`, `getAttribute`.
+    - Modificación de estilos: `style`, `classList`.
+    - Creación y eliminación de elementos: `createElement`, `appendChild`, `removeChild`.
+
+Punto 3: Eventos
+- Introducción a los eventos:
+    - Qué son los eventos y cómo funcionan.
+    - Tipos de eventos comunes: `click`, `mouseover`, `keydown`, `submit`.
+- Manejadores de eventos:
+    - `addEventListener`.
+    - Propagación de eventos: bubbling y capturing.
+    - Prevención de comportamientos predeterminados: `preventDefault`.
+
+Punto 4: JavaScript Asíncrono
+- Callbacks:
+????????    - Qué son los callbacks y cómo se utilizan.
+- Promesas:
+    - Creación y uso de promesas.
+????????    - `async/await`. 
+???????? - AJAX y Fetch API:
+    - Realización de peticiones HTTP.
+    - Manipulación de datos JSON.
+
+Punto 5: Proyectos Prácticos
+
+- Aplicaciones interactivas:
+    - Creación de formularios dinámicos.
+    - Manipulación de elementos en respuesta a eventos del usuario.
+    - Creación de pequeños juegos interactivos.
+- Consumo de APIs:
+    - Desarrollo de aplicaciones que consuman APIs públicas.
+    - Visualización de datos dinámicos.
+- Manipulación de datos:
+    - Filtros y ordenamientos de datos mostrados en el DOM.
+

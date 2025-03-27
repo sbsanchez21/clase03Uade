@@ -1,0 +1,45 @@
+# Ignorar archivos de configuración local
+.env
+*.local
+
+# Ignorar dependencias de Node.js
+node_modules/
+
+# Ignorar archivos de compilación
+/dist/
+/build/
+*.log
+*.tmp
+
+# Ignorar archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos de Java
+*.class
+*.jar
+
+# Ignorar archivos de compilación de C/C++
+*.o
+*.out
+*.exe
+
+# Ignorar archivos de logs
+logs/
+*.log
+
+# Ignorar archivos de entornos virtuales
+venv/
+.env/
