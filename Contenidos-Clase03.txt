@@ -68,13 +68,15 @@ Repaso: 15min
     Crear Repositorio Local con Git
     - Inicializar un repositorio: `git init`. En VSC se ve un indicador
     - Ver el estado del repositorio: `git status`.
-    - Agregar archivos al staging area: `git add <archivo>`.
+    - Agregar archivos al staging area: 
+        git add <archivo> sube un archivo
+        git add . sube todo el Directorio y las subcarpetas
     - Confirmar cambios: `git commit -m "Mensaje descriptivo"`.
     - Ver el historial de commits: `git log`.
 
     Vincular un repo local a uno remoto y subir repo a Github:
         - crear repo en github o gitlab, obtener url
-        - vincular repositorio
+        - vincular repositorio: se hace una sola vez 
         git remote add origin https://github.com/sbsanchez21/clase02Uade.git
         - verificar si están vinculados 
         git remote -v
